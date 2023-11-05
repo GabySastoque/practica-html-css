@@ -6,3 +6,209 @@ Green: #00B172
 White: #FFF
 
 */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Estilos header*/
+#Cabecero {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF;
+    width: 100%;
+    height: fit-content;
+    color: 1A1A1A;
+    padding: 20px;
+    align-items:center;
+    margin-top: 2vh;
+}
+
+#Cabecero img {
+    align-self: flex-start;
+    height: 10vh;
+    width: fit-content;
+    padding: 4vh;
+}
+#navegador {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    font-family: Helvetica, sans-serif;
+    align-self: flex-end;
+    padding: 4vh;
+    
+  }
+  
+  nav li {
+    color: 1A1A1A;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: A1A1A;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: 1A1A1A;
+  }
+  
+  /*Estilo para la sección*/ 
+
+  #seccion1_Imagen {
+    margin: 0 0;
+    height: 120vh;
+    position: center;
+    background-image: url('../images/landing.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #seccion1_Imagen h1 {
+    font-size: 13vh;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    padding: 0;
+   
+  }
+  
+  #seccion1_Imagen p {
+    font-size: 5vh;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0;
+  }
+
+  /*Estilo header sección What´s On*/
+
+  .Whats-on {
+    text-align: center;
+    margin: 2vh;
+    margin-bottom: 10%;
+    height: 90vh;
+    padding: 10px;    
+}
+  .Whats-on h2 {
+    font-size: 6.5vh;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4vh;
+    align-self: center;
+  }
+
+  .subrrayado {
+    border-bottom: 0.5vh solid #00B172;
+    padding-bottom: 5px;
+  }
+
+  /*Estilo contenedores div seccion What's On*/
+  #grid-container {
+    display: grid;
+    grid-template-columns: 750px 750px 750px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: space-between;
+    margin: 10%;
+    position: center center;
+  }
+
+  #grid-item {
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+  }
+
+  #grid-item h1{
+    color: #00B172;
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  #grid-item h2 {
+    color: black;
+    font-size: 4vh;
+    font-weight: 10;
+    font-family: sans-serif;
+  }  
+
+  /*Estilos ultima sección*/
+  
+  
+  .Ultimaseccion {
+    background-color: #00B172; 
+    display: flex;
+    flex-direction: row;
+    height: 120vh;  
+    justify-content: space-between;
+  }
+
+  .Ultimaseccion_izquierda {
+    margin-left: 5%;
+  }
+
+
+  .Ultimaseccion_izquierda h2 {
+    font-size: 5vh;
+    font-weight: 550;
+    font-family: sans-serif;
+    padding: 2vh;
+    color: #FFF;
+    align-self: left;
+  }
+
+  .subrayado2 {
+    border-bottom: 0.5vh solid #FFF;
+    padding-bottom: 5px;
+  }
+ 
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 600px; 
+    grid-row: 150px;
+    grid-gap: none;
+  }
+
+ .grid-item {
+    padding: 5px;
+    text-align: left;
+  }
+
+  .grid-item h1{
+    color: #FFF;
+    font-size: 4vh;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+  .grid-item p {
+    color: #FFF;
+    font-size: 4vh;
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+
+.Ultimaseccion_medio {
+    align-items: center center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.Ultimaseccion_derecha {
+    align-items:right;
+    margin-right: 5%;
+    margin-top: 8%;
+}
+    
+
+
+

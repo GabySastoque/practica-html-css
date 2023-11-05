@@ -1,0 +1,134 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#inicio{
+    color: 1A1A1A;
+    width: 100%;
+    height: fit-content;
+    background-color: #FFF;
+    display: flex; 
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+#inicio img{
+    align-self: flex-start;
+    height: 10vh;
+    width: fit-content;
+    padding-left: 4vh;
+}
+#navegador{
+    list-style: none;  
+    display: flex; 
+    justify-content: space-around;
+    gap: 3rem;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-end;
+    padding: 4vh;
+}
+#Fondo{
+    background-image: url("/practica-html-css/src/images/landing.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat; 
+    height: 120vh;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Fondo h1{
+    font-size: 13vh;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4vh;
+}
+#Fondo p{
+    font-size: 5vh;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Whats-on{
+    text-align: center;
+    margin: 2vh;
+    margin-bottom: 5vh;
+    height: 90vh;
+}
+.Whats-on h2{
+    font-size: 6vh;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4vh;
+    align-self: center;
+}
+.subrrayado{
+    border-bottom: 0.5vh solid #00B172;
+    padding-bottom: 5px;
+}
+.Whats-on div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60vh;
+    gap: 10vx;
+}
+#Songs{
+   grid-column: 1;
+}
+#Music{
+    grid-column: 2;
+}
+#Stream{
+    grid-column: 3;
+}
+.Whats-on dt{
+    color: #00B172;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.Whats-on dt img{
+    height: 12vh;
+}
+.last-section{
+    background-color: #00B172;
+    margin: 4vh;
+    padding: 6vh;
+    height: 120vh;
+    color: #FFF;
+    display: flex;
+    align-content: stretch;
+}
+.last-section h2{
+    font-size: 6vh;
+}
+.subrrayado-2{
+    border-bottom: 0.5vh solid #FFF;
+    padding-bottom: 5px;
+}
+.last-section dt{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6vh;
+}
+#texto{
+    height: 100vh;   
+}
+#logo{
+    height: 20vh;
+}
+#app{
+    height: 100vh;
+    width: fit-content;
+}

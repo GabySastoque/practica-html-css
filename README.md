@@ -94,3 +94,23 @@ _La última sección no es tan detallada como las otras, ¡buena suerte!_ 😄
 - [Guía de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Guía de CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Guía de centrado en CSS](https://css-tricks.com/centering-css-complete-guide/)
+
+
+
+
+    What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
+    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
+    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
+    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
+    own personal playlist. Or sit back and enjoy Radio.
+
+
+
+    height: 20vh;
+    background-color: #00B172;
+    color: #FFF;
+    font-size: 4.5vh;
+    font-weight: 300;
+    font-family: sans-serif;
+    align-self: left;
+  }
